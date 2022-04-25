@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+.tamanho {
+    background-image: url(../img/rock-and.png);
+    background-position: 100% 100%;
+    background-size: 500px;
+    position: relative;
+    height: 300vh;
+}
+
+.topo {
+    width: 100%;
+    background-color: black;
+    height: 100px;
+    text-align: center;
+    padding: 10px 2%;
+    position: fixed;
+    z-index: 1;
+}
+
+h1 {
+    width: 100%;
+    font-size: 50px;
+    color: white;
+}
+
+.ex {
+
+    position: relative;
+    top: 100px;
+    height: auto;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.98);
+    text-align: center;
+    padding: 10px 2%;
+}
+
+h2 {
+    color: white;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.div-p {
+    font-size: 18px;
+    margin: 0 auto;
+    text-align: justify;
+    line-height: 25px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.div-p a {
+    text-decoration: none;
+    font-size: 20px;
+    color: red;
+}
+
+.div-p a:hover {
+    color: rgb(67, 11, 221);
+}
+
+.main {
+    padding: 10px 2%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.98);
+    color: white;
+    position: relative;
+    top: 100px;
+
+}
+
+.main h2 {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.main ul {
+    text-align: left;
+    width: 100%;
+    max-width: 500px;
+    margin: 30px auto;
+    line-height: 25px;
+    list-style: inside;
+}
+
+.main ul a {
+    transition: 0.3s;
+    text-decoration: none;
+    color: white;
+}
+
+.main ul a:hover {
+    color: red;
+}
+
+
+.article {
+    padding: 20px 2%;
+    width: 100%;
+    position: relative;
+    top: 100px;
+    background-color: rgba(0, 0, 0, 0.98);
+    color: white;
+    
+}
+.article div{
+    width: 100%;
+    max-width: 500px;
+    margin: 60px auto;
+}
+.article div p{
+    text-align: justify;
+    margin-bottom:30px;
+    line-height: 25px;
+}
+.moto img{
+    width: 100%;
+    max-width: 500px;
+}
+button{
+    padding: 10px;
+    margin: 20px 0;
+    border: 1px solid;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 200px;
+    height: 50px;
+    cursor: pointer;
+    line-height: 29px;
+    font-size: 20px;
+    font-weight: bold;
+}
+button:hover{
+    color:#f75853;
+    background-color: black;
+}
+.esqueleto{
+    float: right;
+    margin-right:10px ;
+}
+.outra-div {
+    padding: 20px;
+}
+.outra-div h3{
+   font-weight: 300;
+   margin: 20px 0;
+}
+.outra-div ol{
+    line-height: 25px;
+    list-style: inside;
+    list-style-type: decimal;
+}
+footer{
+    padding: 10px;
+    border: 1px solid;
+    text-align: center;
+}
+footer p{
+    margin: 10px 0;
+}
+
+
+
+@media (max-width:500px) {
+    .topo {
+        height: 80px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+}
