@@ -180,7 +180,8 @@ footer p{
 }
 
 video{
-    width: 490px;
+    width: 100%;
+    max-width: 490px;
 }
 .rock{
     width: 50px;
