@@ -11,7 +11,7 @@
     background-position: 100% 100%;
     background-size: 500px;
     position: relative;
-    height: 300vh;
+    height: auto;
 }
 
 .topo {
@@ -36,7 +36,7 @@ h1 {
     top: 100px;
     height: auto;
     color: white;
-    background-color: rgba(0, 0, 0, 0.98);
+    background-color: rgba(0, 0, 0, 0.95);
     text-align: center;
     padding: 10px 2%;
 }
@@ -69,7 +69,7 @@ h2 {
 .main {
     padding: 10px 2%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.98);
+    background-color: rgba(0, 0, 0, 0.95);
     color: white;
     position: relative;
     top: 100px;
@@ -107,7 +107,7 @@ h2 {
     width: 100%;
     position: relative;
     top: 100px;
-    background-color: rgba(0, 0, 0, 0.98);
+    background-color: rgba(0, 0, 0, 0.95);
     color: white;
     
 }
@@ -165,6 +165,25 @@ footer{
 }
 footer p{
     margin: 10px 0;
+}
+.h2-center{
+   
+    text-align: center;
+    line-height: -150px;
+}
+
+.media{
+    box-shadow: 1px 3px 20px  #f75853;
+    padding-top: 20px ;
+    border: 1px solid;
+    text-align: center;
+}
+
+video{
+    width: 490px;
+}
+.rock{
+    width: 50px;
 }
 
 
